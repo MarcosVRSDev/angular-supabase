@@ -1,1 +1,14 @@
-<p>sign-in works!</p>
+<app-form title="Sign In to your account">
+  <app-input id="email" inputType="email" placeholderText="Enter your email"></app-input>
+  <app-input id="password" inputType="password" placeholderText="Enter your password"></app-input>
+  <div class="flex justify-between">
+    <app-link href="/forgot-password">Forgot your password?</app-link>
+    <app-link href="/sign-up">Sign Up</app-link>
+  </div>
+  <div>
+    <app-button>Sign In</app-button>
+  </div>
+  <p class="text-center">
+    <app-link href="/sign-in-magic-link">Sign in with Magic Link</app-link>
+  </p>
+</app-form>

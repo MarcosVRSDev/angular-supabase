@@ -8,6 +8,10 @@ import { SignUpComponent } from './pages/sign-up/sign-up.component';
 import { SignInMagicLinkComponent } from './pages/sign-in-magic-link/sign-in-magic-link.component';
 import { ForgotPasswordComponent } from './pages/forgot-password/forgot-password.component';
 import { ResetPasswordComponent } from './pages/reset-password/reset-password.component';
+import { InputComponent } from './components/input/input.component';
+import { ButtonComponent } from './components/button/button.component';
+import { LinkComponent } from './components/link/link.component';
+import { FormComponent } from './components/form/form.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import { ResetPasswordComponent } from './pages/reset-password/reset-password.co
     SignUpComponent,
     SignInMagicLinkComponent,
     ForgotPasswordComponent,
-    ResetPasswordComponent
+    ResetPasswordComponent,
+    InputComponent,
+    ButtonComponent,
+    LinkComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule,
